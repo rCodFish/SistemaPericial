@@ -1343,7 +1343,113 @@ carro(ford_focus) :-
     aceleracao_0_100(7.9),
     melhor_premio('Melhor hatchback médio pela Revista What Car?').
 
+carro(ford_ranger) :-
+    tipo(pickup),
+    ano_lancamento(2023),
+    pontuacao(8.2),
+    custo(25000),
+    fabricante('Ford'),
+    motor(i4_turbo),
+    peso(1985),
+    velocidade_maxima(180),
+    aceleracao_0_100(9.8),
+    melhor_premio('Melhor pickup média pela Revista Edmunds').
 
+carro(ford_explorer) :-
+    tipo(suv_grande),
+    ano_lancamento(2024),
+    pontuacao(8.6),
+    custo(32345),
+    fabricante('Ford'),
+    motor(v6),
+    peso(2043),
+    velocidade_maxima(200),
+    aceleracao_0_100(7.3),
+    melhor_premio('Melhor SUV grande pela Revista US News & World Report').
+
+carro(ford_edge) :-
+    tipo(suv_medio),
+    ano_lancamento(2022),
+    pontuacao(8.4),
+    custo(33215),
+    fabricante('Ford'),
+    motor(i4),
+    peso(1857),
+    velocidade_maxima(210),
+    aceleracao_0_100(8.3),
+    melhor_premio('Melhor SUV médio pela Revista What Car?').
+
+carro(ford_ecosport) :-
+    tipo(suv_subcompacto),
+    ano_lancamento(2023),
+    pontuacao(7.8),
+    custo(21490),
+    fabricante('Ford'),
+    motor(i4),
+    peso(1400),
+    velocidade_maxima(180),
+    aceleracao_0_100(10.7),
+    melhor_premio('Melhor SUV subcompacto pela Revista US News & World Report').
+
+carro(ford_escape) :-
+    tipo(suv_compacto),
+    ano_lancamento(2024),
+    pontuacao(8.2),
+    custo(26100),
+    fabricante('Ford'),
+    motor(i4_turbo),
+    peso(1596),
+    velocidade_maxima(200),
+    aceleracao_0_100(8.9),
+    melhor_premio('Melhor SUV compacto pela Revista Edmunds').
+
+carro(ford_maverick) :-
+    tipo(pickup_compacta),
+    ano_lancamento(2022),
+    pontuacao(8.0),
+    custo(21975),
+    fabricante('Ford'),
+    motor(i4_híbrido),
+    peso(1720),
+    velocidade_maxima(170),
+    aceleracao_0_100(9.0),
+    melhor_premio('Melhor pickup compacta pela Revista MotorTrend').
+
+carro(ford_fusion) :-
+    tipo(sedan),
+    ano_lancamento(2023),
+    pontuacao(8.5),
+    custo(25690),
+    fabricante('Ford'),
+    motor(i4),
+    peso(1578),
+    velocidade_maxima(200),
+    aceleracao_0_100(8.1),
+    melhor_premio('Melhor sedan pela Revista US News & World Report').
+
+carro(ford_transit) :-
+    tipo(furgão),
+    ano_lancamento(2024),
+    pontuacao(7.9),
+    custo(35985),
+    fabricante('Ford'),
+    motor(i4_turbo_diesel),
+    peso(2000),
+    velocidade_maxima(160),
+    aceleracao_0_100(12.5),
+    melhor_premio('Melhor furgão pelo International Van of the Year').
+
+carro(ford_f150_lightning) :-
+    tipo(pickup_elétrica),
+    ano_lancamento(2022),
+    pontuacao(9.0),
+    custo(39995),
+    fabricante('Ford'),
+    motor(electric),
+    peso(5500),
+    velocidade_maxima(180),
+    aceleracao_0_100(4.4),
+    melhor_premio('Melhor pickup elétrica pela Revista MotorTrend').
 
 
 
