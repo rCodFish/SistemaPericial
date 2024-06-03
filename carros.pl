@@ -1,8 +1,7 @@
-%Factos do Carro
+% Factos dos Carro
 carro(bmw_3_series) :-
     tipo(sedan),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(41900),
     fabricante('BMW'),
     motor(turbo_i4),
@@ -14,7 +13,6 @@ carro(bmw_3_series) :-
 carro(bmw_5_series) :-
     tipo(sedan_de_luxo),
     ano_lancamento(2022),
-    pontuacao(9.2),
     custo(54700),
     fabricante('BMW'),
     motor(turbo_v6),
@@ -26,7 +24,6 @@ carro(bmw_5_series) :-
 carro(bmw_x3) :-
     tipo(suv_compacto),
     ano_lancamento(2023),
-    pontuacao(8.5),
     custo(42900),
     fabricante('BMW'),
     motor(hibrido),
@@ -38,7 +35,6 @@ carro(bmw_x3) :-
 carro(bmw_x6) :-
     tipo(suv_cupê),
     ano_lancamento(2024),
-    pontuacao(9.0),
     custo(65400),
     fabricante('BMW'),
     motor(turbo_v8),
@@ -50,7 +46,6 @@ carro(bmw_x6) :-
 carro(bmw_i8) :-
     tipo(esportivo_hibrido),
     ano_lancamento(2023),
-    pontuacao(9.5),
     custo(147500),
     fabricante('BMW'),
     motor(hibrido),
@@ -62,7 +57,6 @@ carro(bmw_i8) :-
 carro(bmw_1_series) :-
     tipo(hatchback),
     ano_lancamento(2024),
-    pontuacao(8.3),
     custo(35900),
     fabricante('BMW'),
     motor(turbo_i3),
@@ -74,7 +68,6 @@ carro(bmw_1_series) :-
 carro(bmw_7_series) :-
     tipo(sedan_de_luxo),
     ano_lancamento(2023),
-    pontuacao(9.1),
     custo(86900),
     fabricante('BMW'),
     motor(turbo_v8),
@@ -86,7 +79,6 @@ carro(bmw_7_series) :-
 carro(bmw_x1) :-
     tipo(suv_subcompacto),
     ano_lancamento(2022),
-    pontuacao(8.0),
     custo(35900),
     fabricante('BMW'),
     motor(turbo_i4),
@@ -98,7 +90,6 @@ carro(bmw_x1) :-
 carro(bmw_m4) :-
     tipo(cupê_esportivo),
     ano_lancamento(2024),
-    pontuacao(9.4),
     custo(71900),
     fabricante('BMW'),
     motor(turbo_i6),
@@ -110,7 +101,6 @@ carro(bmw_m4) :-
 carro(bmw_ix) :-
     tipo(suv_eletrico),
     ano_lancamento(2023),
-    pontuacao(9.7),
     custo(89900),
     fabricante('BMW'),
     motor(eletrico),
@@ -122,7 +112,6 @@ carro(bmw_ix) :-
 carro(bmw_2_series) :-
     tipo(cupê),
     ano_lancamento(2024),
-    pontuacao(8.6),
     custo(41900),
     fabricante('BMW'),
     motor(turbo_i4),
@@ -134,7 +123,6 @@ carro(bmw_2_series) :-
 carro(bmw_x4) :-
     tipo(suv_cupê),
     ano_lancamento(2023),
-    pontuacao(8.4),
     custo(51900),
     fabricante('BMW'),
     motor(turbo_i4),
@@ -146,7 +134,6 @@ carro(bmw_x4) :-
 carro(bmw_i4) :-
     tipo(sedan_eletrico),
     ano_lancamento(2023),
-    pontuacao(9.3),
     custo(55400),
     fabricante('BMW'),
     motor(eletrico),
@@ -158,7 +145,6 @@ carro(bmw_i4) :-
 carro(bmw_4_series) :-
     tipo(cupê),
     ano_lancamento(2024),
-    pontuacao(8.9),
     custo(49900),
     fabricante('BMW'),
     motor(turbo_i4),
@@ -170,7 +156,6 @@ carro(bmw_4_series) :-
 carro(bmw_x5) :-
     tipo(suv_grande),
     ano_lancamento(2023),
-    pontuacao(9.1),
     custo(59900),
     fabricante('BMW'),
     motor(hibrido),
@@ -182,7 +167,6 @@ carro(bmw_x5) :-
 carro(bmw_6_series) :-
     tipo(cupê_grande),
     ano_lancamento(2023),
-    pontuacao(8.7),
     custo(72200),
     fabricante('BMW'),
     motor(turbo_v8),
@@ -194,7 +178,6 @@ carro(bmw_6_series) :-
 carro(bmw_x7) :-
     tipo(suv_luxo),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(74700),
     fabricante('BMW'),
     motor(turbo_v8),
@@ -206,7 +189,6 @@ carro(bmw_x7) :-
 carro(bmw_8_series) :-
     tipo(cupê_grande),
     ano_lancamento(2023),
-    pontuacao(9.2),
     custo(85200),
     fabricante('BMW'),
     motor(turbo_v8),
@@ -218,7 +200,6 @@ carro(bmw_8_series) :-
 carro(bmw_iX3) :-
     tipo(SUV_eletrico),
     ano_lancamento(2022),
-    pontuacao(8.8),
     custo(54300),
     fabricante('BMW'),
     motor(eletrico),
@@ -230,7 +211,6 @@ carro(bmw_iX3) :-
 carro(audi_a3) :-
     tipo(hatchback),
     ano_lancamento(2024),
-    pontuacao(8.5),
     custo(33900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -242,7 +222,6 @@ carro(audi_a3) :-
 carro(audi_a4) :-
     tipo(sedan),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(39900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -254,7 +233,6 @@ carro(audi_a4) :-
 carro(audi_q3) :-
     tipo(SUV_compacto),
     ano_lancamento(2022),
-    pontuacao(8.2),
     custo(37900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -266,7 +244,6 @@ carro(audi_q3) :-
 carro(audi_a5) :-
     tipo(cupê),
     ano_lancamento(2023),
-    pontuacao(8.7),
     custo(45900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -278,7 +255,6 @@ carro(audi_a5) :-
 carro(audi_q5) :-
     tipo(SUV_medio),
     ano_lancamento(2023),
-    pontuacao(8.6),
     custo(42900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -290,7 +266,6 @@ carro(audi_q5) :-
 carro(audi_a6) :-
     tipo(sedan_grande),
     ano_lancamento(2023),
-    pontuacao(9.0),
     custo(54900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -302,7 +277,6 @@ carro(audi_a6) :-
 carro(audi_q7) :-
     tipo(suv_grande),
     ano_lancamento(2022),
-    pontuacao(8.9),
     custo(59900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -314,7 +288,6 @@ carro(audi_q7) :-
 carro(audi_a7) :-
     tipo(sedan_cupê),
     ano_lancamento(2023),
-    pontuacao(8.8),
     custo(69900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -326,7 +299,6 @@ carro(audi_a7) :-
 carro(audi_e_tron) :-
     tipo(SUV_eletrico),
     ano_lancamento(2022),
-    pontuacao(9.1),
     custo(65900),
     fabricante('Audi'),
     motor(eletrico),
@@ -338,7 +310,6 @@ carro(audi_e_tron) :-
 carro(audi_rs3) :-
     tipo(hatchback_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.2),
     custo(56900),
     fabricante('Audi'),
     motor(turbo_i5),
@@ -350,7 +321,6 @@ carro(audi_rs3) :-
 carro(audi_tt) :-
     tipo(cupê_esportivo),
     ano_lancamento(2022),
-    pontuacao(8.9),
     custo(48900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -362,7 +332,6 @@ carro(audi_tt) :-
 carro(audi_rs5) :-
     tipo(cupê_grande_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.0),
     custo(75900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -374,7 +343,6 @@ carro(audi_rs5) :-
 carro(audi_q8) :-
     tipo(SUV_luxo),
     ano_lancamento(2022),
-    pontuacao(9.1),
     custo(68900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -386,7 +354,6 @@ carro(audi_q8) :-
 carro(audi_a8) :-
     tipo(sedan_executivo),
     ano_lancamento(2023),
-    pontuacao(9.2),
     custo(86900),
     fabricante('Audi'),
     motor(turbo_v8),
@@ -398,7 +365,6 @@ carro(audi_a8) :-
 carro(audi_rs6) :-
     tipo(wagon_esportiva),
     ano_lancamento(2022),
-    pontuacao(9.3),
     custo(109900),
     fabricante('Audi'),
     motor(turbo_v8),
@@ -410,7 +376,6 @@ carro(audi_rs6) :-
 carro(audi_rs7) :-
     tipo(cupê_grande_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.4),
     custo(94900),
     fabricante('Audi'),
     motor(turbo_v8),
@@ -422,7 +387,6 @@ carro(audi_rs7) :-
 carro(audi_s5) :-
     tipo(cupê_grande_esportivo),
     ano_lancamento(2022),
-    pontuacao(8.7),
     custo(59900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -434,7 +398,6 @@ carro(audi_s5) :-
 carro(audi_sq5) :-
     tipo(SUV_esportivo),
     ano_lancamento(2023),
-    pontuacao(8.8),
     custo(55900),
     fabricante('Audi'),
     motor(turbo_v6),
@@ -446,7 +409,6 @@ carro(audi_sq5) :-
 carro(audi_r8) :-
     tipo(superesportivo),
     ano_lancamento(2022),
-    pontuacao(9.5),
     custo(169900),
     fabricante('Audi'),
     motor(v10),
@@ -458,7 +420,6 @@ carro(audi_r8) :-
 carro(audi_tt_rs) :-
     tipo(cupê_esportivo),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(57900),
     fabricante('Audi'),
     motor(turbo_i5),
@@ -470,7 +431,6 @@ carro(audi_tt_rs) :-
 carro(audi_a1) :-
     tipo(subcompacto),
     ano_lancamento(2024),
-    pontuacao(8.4),
     custo(23900),
     fabricante('Audi'),
     motor(turbo_i3),
@@ -482,7 +442,6 @@ carro(audi_a1) :-
 carro(audi_s3) :-
     tipo(hatchback_esportivo),
     ano_lancamento(2023),
-    pontuacao(8.6),
     custo(43900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -494,7 +453,6 @@ carro(audi_s3) :-
 carro(audi_q3) :-
     tipo(SUV_compacto),
     ano_lancamento(2022),
-    pontuacao(8.4),
     custo(36900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -506,7 +464,6 @@ carro(audi_q3) :-
 carro(audi_a4) :-
     tipo(sedan_medio),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(44900),
     fabricante('Audi'),
     motor(turbo_i4),
@@ -518,7 +475,6 @@ carro(audi_a4) :-
 carro(mercedes_a_class) :-
     tipo(hatchback_subcompacto),
     ano_lancamento(2023),
-    pontuacao(8.7),
     custo(33900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -530,7 +486,6 @@ carro(mercedes_a_class) :-
 carro(mercedes_c_class) :-
     tipo(sedan_medio),
     ano_lancamento(2022),
-    pontuacao(8.9),
     custo(42900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -542,7 +497,6 @@ carro(mercedes_c_class) :-
 carro(mercedes_e_class) :-
     tipo(sedan_executivo),
     ano_lancamento(2023),
-    pontuacao(9.2),
     custo(56900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i6),
@@ -554,7 +508,6 @@ carro(mercedes_e_class) :-
 carro(mercedes_s_class) :-
     tipo(sedan_luxo),
     ano_lancamento(2022),
-    pontuacao(9.5),
     custo(94900),
     fabricante('Mercedes-Benz'),
     motor(turbo_v8),
@@ -566,7 +519,6 @@ carro(mercedes_s_class) :-
 carro(mercedes_gla) :-
     tipo(SUV_subcompacto),
     ano_lancamento(2023),
-    pontuacao(8.6),
     custo(38900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -578,7 +530,6 @@ carro(mercedes_gla) :-
 carro(mercedes_glc_coupe) :-
     tipo(SUV_cupê),
     ano_lancamento(2024),
-    pontuacao(8.8),
     custo(49900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i6),
@@ -590,7 +541,6 @@ carro(mercedes_glc_coupe) :-
 carro(mercedes_gle) :-
     tipo(SUV_grande),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(58900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i6),
@@ -602,7 +552,6 @@ carro(mercedes_gle) :-
 carro(mercedes_eqc) :-
     tipo(SUV_elétrico),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(67900),
     fabricante('Mercedes-Benz'),
     motor(eletrico),
@@ -614,7 +563,6 @@ carro(mercedes_eqc) :-
 carro(mercedes_amg_gt) :-
     tipo(carro_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.4),
     custo(159900),
     fabricante('Mercedes-Benz'),
     motor(turbo_v8),
@@ -626,7 +574,6 @@ carro(mercedes_amg_gt) :-
 carro(mercedes_cls) :-
     tipo(cupê_sedan),
     ano_lancamento(2022),
-    pontuacao(8.7),
     custo(72900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i6),
@@ -638,7 +585,6 @@ carro(mercedes_cls) :-
 carro(mercedes_vito) :-
     tipo(minivan),
     ano_lancamento(2023),
-    pontuacao(8.2),
     custo(40900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -650,7 +596,6 @@ carro(mercedes_vito) :-
 carro(mercedes_x_class) :-
     tipo(caminhonete),
     ano_lancamento(2022),
-    pontuacao(8.6),
     custo(42900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -662,7 +607,6 @@ carro(mercedes_x_class) :-
 carro(mercedes_b_class) :-
     tipo(minivan_compacta),
     ano_lancamento(2023),
-    pontuacao(8.5),
     custo(34900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -674,7 +618,6 @@ carro(mercedes_b_class) :-
 carro(mercedes_amg_a45) :-
     tipo(hatchback_esportivo),
     ano_lancamento(2022),
-    pontuacao(9.1),
     custo(56900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -686,7 +629,6 @@ carro(mercedes_amg_a45) :-
 carro(mercedes_eqs) :-
     tipo(SUV_elétrico),
     ano_lancamento(2024),
-    pontuacao(9.3),
     custo(79900),
     fabricante('Mercedes-Benz'),
     motor(eletrico),
@@ -698,7 +640,6 @@ carro(mercedes_eqs) :-
 carro(mercedes_gls) :-
     tipo(SUV_de_luxo),
     ano_lancamento(2023),
-    pontuacao(9.0),
     custo(75900),
     fabricante('Mercedes-Benz'),
     motor(turbo_v6),
@@ -710,7 +651,6 @@ carro(mercedes_gls) :-
 carro(mercedes_slc) :-
     tipo(conversível_esportivo),
     ano_lancamento(2022),
-    pontuacao(8.6),
     custo(59900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -722,7 +662,6 @@ carro(mercedes_slc) :-
 carro(mercedes_glc) :-
     tipo(SUV_Médio),
     ano_lancamento(2023),
-    pontuacao(8.8),
     custo(46900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -734,7 +673,6 @@ carro(mercedes_glc) :-
 carro(mercedes_sprinter) :-
     tipo(furgão),
     ano_lancamento(2024),
-    pontuacao(8.3),
     custo(42900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -746,7 +684,6 @@ carro(mercedes_sprinter) :-
 carro(mercedes_cla) :-
     tipo(sedã_compacto),
     ano_lancamento(2023),
-    pontuacao(8.7),
     custo(37900),
     fabricante('Mercedes-Benz'),
     motor(turbo_i4),
@@ -758,7 +695,6 @@ carro(mercedes_cla) :-
 carro(mercedes_eqb) :-
     tipo(SUV_elétrico),
     ano_lancamento(2022),
-    pontuacao(8.9),
     custo(58900),
     fabricante('Mercedes-Benz'),
     motor(eletrico),
@@ -770,7 +706,6 @@ carro(mercedes_eqb) :-
 carro(honda_civic) :-
     tipo(sedã),
     ano_lancamento(2023),
-    pontuacao(8.6),
     custo(21900),
     fabricante('Honda'),
     motor(i4),
@@ -782,7 +717,6 @@ carro(honda_civic) :-
 carro(honda_cr_v) :-
     tipo(SUV_compacto),
     ano_lancamento(2022),
-    pontuacao(8.4),
     custo(25900),
     fabricante('Honda'),
     motor(i4),
@@ -794,7 +728,6 @@ carro(honda_cr_v) :-
 carro(honda_accord) :-
     tipo(sedã),
     ano_lancamento(2023),
-    pontuacao(8.8),
     custo(24900),
     fabricante('Honda'),
     motor(i4),
@@ -806,7 +739,6 @@ carro(honda_accord) :-
 carro(honda_fit) :-
     tipo(hatchback),
     ano_lancamento(2024),
-    pontuacao(8.3),
     custo(18900),
     fabricante('Honda'),
     motor(i4),
@@ -818,7 +750,6 @@ carro(honda_fit) :-
 carro(honda_hr_v) :-
     tipo(SUV_subcompacto),
     ano_lancamento(2023),
-    pontuacao(8.1),
     custo(21900),
     fabricante('Honda'),
     motor(i4),
@@ -830,7 +761,6 @@ carro(honda_hr_v) :-
 carro(honda_odyssey) :-
     tipo(minivan),
     ano_lancamento(2022),
-    pontuacao(8.7),
     custo(31500),
     fabricante('Honda'),
     motor(v6),
@@ -842,7 +772,6 @@ carro(honda_odyssey) :-
 carro(honda_insight) :-
     tipo(híbrido),
     ano_lancamento(2023),
-    pontuacao(8.5),
     custo(25900),
     fabricante('Honda'),
     motor(i4_híbrido),
@@ -854,7 +783,6 @@ carro(honda_insight) :-
 carro(honda_passport) :-
     tipo(SUV_médio),
     ano_lancamento(2022),
-    pontuacao(8.2),
     custo(31900),
     fabricante('Honda'),
     motor(v6),
@@ -866,7 +794,6 @@ carro(honda_passport) :-
 carro(honda_urban_ev) :-
     tipo(carro_elétrico),
     ano_lancamento(2024),
-    pontuacao(9.0),
     custo(35900),
     fabricante('Honda'),
     motor(eletrico),
@@ -878,7 +805,6 @@ carro(honda_urban_ev) :-
 carro(honda_pilot) :-
     tipo(SUV_grande),
     ano_lancamento(2023),
-    pontuacao(8.6),
     custo(35900),
     fabricante('Honda'),
     motor(v6),
@@ -890,7 +816,6 @@ carro(honda_pilot) :-
 carro(honda_vezel) :-
     tipo(SUV_subcompacto),
     ano_lancamento(2022),
-    pontuacao(8.0),
     custo(24900),
     fabricante('Honda'),
     motor(i4),
@@ -902,7 +827,6 @@ carro(honda_vezel) :-
 carro(honda_e) :-
     tipo(carro_elétrico),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(32900),
     fabricante('Honda'),
     motor(eletrico),
@@ -914,7 +838,6 @@ carro(honda_e) :-
 carro(ferrari_488_gt3) :-
     tipo(carro_de_corrida),
     ano_lancamento(2023),
-    pontuacao(9.2),
     custo(500000),
     fabricante('Ferrari'),
     motor(v8),
@@ -926,7 +849,6 @@ carro(ferrari_488_gt3) :-
 carro(ferrari_sf90_stradale) :-
     tipo(carro_esportivo),
     ano_lancamento(2022),
-    pontuacao(9.5),
     custo(625000),
     fabricante('Ferrari'),
     motor(v8_híbrido),
@@ -938,7 +860,6 @@ carro(ferrari_sf90_stradale) :-
 carro(ferrari_portofino) :-
     tipo(conversível),
     ano_lancamento(2024),
-    pontuacao(9.0),
     custo(215000),
     fabricante('Ferrari'),
     motor(v8),
@@ -950,7 +871,6 @@ carro(ferrari_portofino) :-
 carro(ferrari_f8_tributo) :-
     tipo(carro_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.3),
     custo(280000),
     fabricante('Ferrari'),
     motor(v8),
@@ -962,7 +882,6 @@ carro(ferrari_f8_tributo) :-
 carro(ferrari_812_superfast) :-
     tipo(grande_turismo),
     ano_lancamento(2022),
-    pontuacao(9.4),
     custo(350000),
     fabricante('Ferrari'),
     motor(v12),
@@ -974,7 +893,6 @@ carro(ferrari_812_superfast) :-
 carro(ferrari_roma) :-
     tipo(carro_esportivo),
     ano_lancamento(2024),
-    pontuacao(9.1),
     custo(225000),
     fabricante('Ferrari'),
     motor(v8),
@@ -986,7 +904,6 @@ carro(ferrari_roma) :-
 carro(ferrari_sf90_spider) :-
     tipo(conversível),
     ano_lancamento(2023),
-    pontuacao(9.6),
     custo(570000),
     fabricante('Ferrari'),
     motor(v8_híbrido),
@@ -998,7 +915,6 @@ carro(ferrari_sf90_spider) :-
 carro(ferrari_gtc4lusso) :-
     tipo(grande_turismo),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(320000),
     fabricante('Ferrari'),
     motor(v12),
@@ -1010,7 +926,6 @@ carro(ferrari_gtc4lusso) :-
 carro(ferrari_monza_sp2) :-
     tipo(carro_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.7),
     custo(1600000),
     fabricante('Ferrari'),
     motor(v12),
@@ -1022,7 +937,6 @@ carro(ferrari_monza_sp2) :-
 carro(ferrari_458_italia) :-
     tipo(carro_esportivo),
     ano_lancamento(2022),
-    pontuacao(9.1),
     custo(230000),
     fabricante('Ferrari'),
     motor(v8),
@@ -1034,7 +948,6 @@ carro(ferrari_458_italia) :-
 carro(ferrari_f12berlinetta) :-
     tipo(grande_turismo),
     ano_lancamento(2023),
-    pontuacao(9.3),
     custo(320000),
     fabricante('Ferrari'),
     motor(v12),
@@ -1046,7 +959,6 @@ carro(ferrari_f12berlinetta) :-
 carro(ferrari_laFerrari) :-
     tipo(hiper_carro),
     ano_lancamento(2022),
-    pontuacao(9.8),
     custo(1800000),
     fabricante('Ferrari'),
     motor(v12_híbrido),
@@ -1058,7 +970,6 @@ carro(ferrari_laFerrari) :-
 carro(ferrari_812_gts) :-
     tipo(conversível),
     ano_lancamento(2023),
-    pontuacao(9.4),
     custo(335000),
     fabricante('Ferrari'),
     motor(v12),
@@ -1070,7 +981,6 @@ carro(ferrari_812_gts) :-
 carro(ferrari_f8_spider) :-
     tipo(conversível),
     ano_lancamento(2022),
-    pontuacao(9.2),
     custo(290000),
     fabricante('Ferrari'),
     motor(v8),
@@ -1082,7 +992,6 @@ carro(ferrari_f8_spider) :-
 carro(ferrari_roma) :-
     tipo(carro_esportivo),
     ano_lancamento(2024),
-    pontuacao(9.0),
     custo(225000),
     fabricante('Ferrari'),
     motor(v8),
@@ -1094,7 +1003,6 @@ carro(ferrari_roma) :-
 carro(lamborghini_huracan) :-
     tipo(carro_esportivo),
     ano_lancamento(2022),
-    pontuacao(9.3),
     custo(261274),
     fabricante('Lamborghini'),
     motor(v10),
@@ -1106,7 +1014,6 @@ carro(lamborghini_huracan) :-
 carro(lamborghini_urus) :-
     tipo(suv),
     ano_lancamento(2023),
-    pontuacao(9.1),
     custo(218009),
     fabricante('Lamborghini'),
     motor(v8),
@@ -1118,7 +1025,6 @@ carro(lamborghini_urus) :-
 carro(lamborghini_asterion) :-
     tipo(carro_esportivo_híbrido),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(2000000),
     fabricante('Lamborghini'),
     motor(v10_híbrido),
@@ -1130,7 +1036,6 @@ carro(lamborghini_asterion) :-
 carro(lamborghini_huracan) :-
     tipo(carro_esportivo),
     ano_lancamento(2022),
-    pontuacao(9.3),
     custo(261274),
     fabricante('Lamborghini'),
     motor(v10),
@@ -1142,7 +1047,6 @@ carro(lamborghini_huracan) :-
 carro(lamborghini_urus) :-
     tipo(suv),
     ano_lancamento(2023),
-    pontuacao(9.1),
     custo(218009),
     fabricante('Lamborghini'),
     motor(v8),
@@ -1154,7 +1058,6 @@ carro(lamborghini_urus) :-
 carro(lamborghini_asterion) :-
     tipo(carro_esportivo_híbrido),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(2000000),
     fabricante('Lamborghini'),
     motor(v10_híbrido),
@@ -1166,7 +1069,6 @@ carro(lamborghini_asterion) :-
 carro(lamborghini_aventador) :-
     tipo(super_carro),
     ano_lancamento(2023),
-    pontuacao(9.5),
     custo(417826),
     fabricante('Lamborghini'),
     motor(v12),
@@ -1178,7 +1080,6 @@ carro(lamborghini_aventador) :-
 carro(lamborghini_sian) :-
     tipo(carro_esportivo_híbrido),
     ano_lancamento(2022),
-    pontuacao(9.7),
     custo(3500000),
     fabricante('Lamborghini'),
     motor(v12_híbrido),
@@ -1190,7 +1091,6 @@ carro(lamborghini_sian) :-
 carro(lamborghini_egoista) :-
     tipo(conceito),
     ano_lancamento(2022),
-    pontuacao(10),
     custo(10000000),
     fabricante('Lamborghini'),
     motor(v10),
@@ -1202,7 +1102,6 @@ carro(lamborghini_egoista) :-
 carro(lamborghini_gallardo) :-
     tipo(carro_esportivo),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(250000),
     fabricante('Lamborghini'),
     motor(v10),
@@ -1214,7 +1113,6 @@ carro(lamborghini_gallardo) :-
 carro(lamborghini_murcielago) :-
     tipo(super_carro),
     ano_lancamento(2023),
-    pontuacao(9.3),
     custo(300000),
     fabricante('Lamborghini'),
     motor(v12),
@@ -1226,7 +1124,6 @@ carro(lamborghini_murcielago) :-
 carro(lamborghini_countach) :-
     tipo(carro_esportivo),
     ano_lancamento(2024),
-    pontuacao(9.6),
     custo(400000),
     fabricante('Lamborghini'),
     motor(v12),
@@ -1238,7 +1135,6 @@ carro(lamborghini_countach) :-
 carro(lamborghini_diablo) :-
     tipo(carro_esportivo),
     ano_lancamento(2023),
-    pontuacao(9.1),
     custo(280000),
     fabricante('Lamborghini'),
     motor(v12),
@@ -1250,7 +1146,6 @@ carro(lamborghini_diablo) :-
 carro(lamborghini_huracan_evo) :-
     tipo(carro_esportivo),
     ano_lancamento(2024),
-    pontuacao(9.4),
     custo(310000),
     fabricante('Lamborghini'),
     motor(v10),
@@ -1262,7 +1157,6 @@ carro(lamborghini_huracan_evo) :-
 carro(lamborghini_veneno) :-
     tipo(hiper_carro),
     ano_lancamento(2022),
-    pontuacao(9.8),
     custo(4500000),
     fabricante('Lamborghini'),
     motor(v12),
@@ -1274,7 +1168,6 @@ carro(lamborghini_veneno) :-
 carro(lamborghini_murcielago_lp640) :-
     tipo(super_carro),
     ano_lancamento(2023),
-    pontuacao(9.5),
     custo(350000),
     fabricante('Lamborghini'),
     motor(v12),
@@ -1286,7 +1179,6 @@ carro(lamborghini_murcielago_lp640) :-
 carro(lamborghini_gallardo_superleggera) :-
     tipo(carro_esportivo),
     ano_lancamento(2024),
-    pontuacao(9.2),
     custo(300000),
     fabricante('Lamborghini'),
     motor(v10),
@@ -1298,7 +1190,6 @@ carro(lamborghini_gallardo_superleggera) :-
 carro(lamborghini_asterion_lpi910) :-
     tipo(carro_esportivo_híbrido),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(2000000),
     fabricante('Lamborghini'),
     motor(v10_híbrido),
@@ -1310,7 +1201,6 @@ carro(lamborghini_asterion_lpi910) :-
 carro(ford_mustang) :-
     tipo(carro_esportivo),
     ano_lancamento(2023),
-    pontuacao(8.9),
     custo(27600),
     fabricante('Ford'),
     motor(v8),
@@ -1322,7 +1212,6 @@ carro(ford_mustang) :-
 carro(ford_fiesta) :-
     tipo(hatchback_subcompacto),
     ano_lancamento(2024),
-    pontuacao(8.0),
     custo(15870),
     fabricante('Ford'),
     motor(i3),
@@ -1334,7 +1223,6 @@ carro(ford_fiesta) :-
 carro(ford_focus) :-
     tipo(hatchback_medio),
     ano_lancamento(2022),
-    pontuacao(8.3),
     custo(19100),
     fabricante('Ford'),
     motor(i4),
@@ -1346,7 +1234,6 @@ carro(ford_focus) :-
 carro(ford_ranger) :-
     tipo(pickup),
     ano_lancamento(2023),
-    pontuacao(8.2),
     custo(25000),
     fabricante('Ford'),
     motor(i4_turbo),
@@ -1358,7 +1245,6 @@ carro(ford_ranger) :-
 carro(ford_explorer) :-
     tipo(suv_grande),
     ano_lancamento(2024),
-    pontuacao(8.6),
     custo(32345),
     fabricante('Ford'),
     motor(v6),
@@ -1370,7 +1256,6 @@ carro(ford_explorer) :-
 carro(ford_edge) :-
     tipo(suv_medio),
     ano_lancamento(2022),
-    pontuacao(8.4),
     custo(33215),
     fabricante('Ford'),
     motor(i4),
@@ -1381,8 +1266,7 @@ carro(ford_edge) :-
 
 carro(ford_ecosport) :-
     tipo(suv_subcompacto),
-    ano_lancamento(2023),
-    pontuacao(7.8),
+    ano_lancamento(2023),,
     custo(21490),
     fabricante('Ford'),
     motor(i4),
@@ -1394,7 +1278,6 @@ carro(ford_ecosport) :-
 carro(ford_escape) :-
     tipo(suv_compacto),
     ano_lancamento(2024),
-    pontuacao(8.2),
     custo(26100),
     fabricante('Ford'),
     motor(i4_turbo),
@@ -1406,7 +1289,6 @@ carro(ford_escape) :-
 carro(ford_maverick) :-
     tipo(pickup_compacta),
     ano_lancamento(2022),
-    pontuacao(8.0),
     custo(21975),
     fabricante('Ford'),
     motor(i4_híbrido),
@@ -1418,7 +1300,6 @@ carro(ford_maverick) :-
 carro(ford_fusion) :-
     tipo(sedan),
     ano_lancamento(2023),
-    pontuacao(8.5),
     custo(25690),
     fabricante('Ford'),
     motor(i4),
@@ -1430,7 +1311,6 @@ carro(ford_fusion) :-
 carro(ford_transit) :-
     tipo(furgão),
     ano_lancamento(2024),
-    pontuacao(7.9),
     custo(35985),
     fabricante('Ford'),
     motor(i4_turbo_diesel),
@@ -1442,7 +1322,6 @@ carro(ford_transit) :-
 carro(ford_f150_lightning) :-
     tipo(pickup_elétrica),
     ano_lancamento(2022),
-    pontuacao(9.0),
     custo(39995),
     fabricante('Ford'),
     motor(electric),
@@ -1451,52 +1330,17 @@ carro(ford_f150_lightning) :-
     aceleracao_0_100(4.4),
     melhor_premio('Melhor pickup elétrica pela Revista MotorTrend').
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 % Predicados auxiliares
 tipo(X):- questiona(tipo, X).
 ano_lancamento(X):- questiona(ano_lancamento, X).
 pontuacao(X):- questiona(pontuacao, X).
 custo(X):- questiona(custo, X).
-diretor(X):- questiona(diretor, X).
-ator_principal(X):- questiona(ator_principal, X).
-produtora(X):- questiona(produtora, X).
-distribuidora(X):- questiona(distribuidora, X).
-guiao(X):- questiona(guiao, X).
-receita(X):- questiona(receita, X).
-duracao(X):- questiona(duracao, X).
+fabricante(X):- questiona(fabricante, X).
+motor(X):- questiona(motor, X).
+peso(X):- questiona(peso, X).
+velocidade_maxima(X):- questiona(velocidade_maxima, X).
+aceleracao_0_100(X):- questiona(aceleracao_0_100, X).
 melhor_premio(X):- questiona(melhor_premio, X).
-equipa_efeitos_visuais(X):- questiona(equipa_efeitos_visuais, X).
-equipa_som(X):- questiona(equipa_som, X).
-equipa_efeitos_especiais(X):- questiona(equipa_efeitos_especiais, X).
-equipa_acrobacias(X):- questiona(equipa_acrobacias, X).
-departamento_musica(X):- questiona(departamento_musica, X).
-design_producao(X):- questiona(design_producao, X).
-departamento_animacao(X):- questiona(departamento_animacao, X).
 
 % Objetivo
 objectivo(X) :- carro(X).
