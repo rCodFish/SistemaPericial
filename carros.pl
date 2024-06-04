@@ -10,6 +10,28 @@ carro(bmw_3_series) :-
     aceleracao_0_100(5.6),
     melhor_premio('Melhor sedan de luxo pela Revista MotorTrend').
 
+carro(bmw_3_series) :-
+    tipo(sedan),
+    ano_lancamento(2018),
+    custo(42900),
+    fabricante('BMW'),
+    motor(turbo_i4),
+    peso(1600),
+    velocidade_maxima(300),
+    aceleracao_0_100(5.6),
+    melhor_premio('Melhor sedan de luxo pela Revista MotorTrend').
+
+carro(bmw_3_series) :-
+    tipo(sedan),
+    ano_lancamento(2020),
+    custo(45900),
+    fabricante('BMW'),
+    motor(turbo_i4),
+    peso(1600),
+    velocidade_maxima(240),
+    aceleracao_0_100(5.6),
+    melhor_premio('Melhor sedan de luxo pela Revista MotorTrend').
+
 carro(bmw_5_series) :-
     tipo(sedan_de_luxo),
     ano_lancamento(2022),
@@ -30,7 +52,7 @@ carro(bmw_x3) :-
     peso(1850),
     velocidade_maxima(220),
     aceleracao_0_100(6.0),
-    melhor_premio('Melhor SUV compacto pela Revista Car and Driver').
+    melhor_premio('Melhor suv compacto pela Revista Car and Driver').
 
 carro(bmw_x6) :-
     tipo(suv_cupê),
@@ -41,7 +63,7 @@ carro(bmw_x6) :-
     peso(2250),
     velocidade_maxima(270),
     aceleracao_0_100(4.2),
-    melhor_premio('Melhor SUV cupê de luxo pela Revista Edmunds').
+    melhor_premio('Melhor suv cupê de luxo pela Revista Edmunds').
 
 carro(bmw_i8) :-
     tipo(esportivo_hibrido),
@@ -52,7 +74,7 @@ carro(bmw_i8) :-
     peso(1630),
     velocidade_maxima(250),
     aceleracao_0_100(4.0),
-    melhor_premio('Melhor carro híbrido esportivo pela Revista Top Gear').
+    melhor_premio('Melhor carro hibrido esportivo pela Revista Top Gear').
 
 carro(bmw_1_series) :-
     tipo(hatchback),
@@ -85,7 +107,7 @@ carro(bmw_x1) :-
     peso(1600),
     velocidade_maxima(210),
     aceleracao_0_100(7.5),
-    melhor_premio('Melhor SUV subcompacto de luxo pela Revista US News & World Report').
+    melhor_premio('Melhor suv subcompacto de luxo pela Revista US News & World Report').
 
 carro(bmw_m4) :-
     tipo(cupê_esportivo),
@@ -107,7 +129,7 @@ carro(bmw_ix) :-
     peso(2250),
     velocidade_maxima(250),
     aceleracao_0_100(4.0),
-    melhor_premio('Melhor SUV elétrico pela Revista Top Gear').
+    melhor_premio('Melhor suv eletrico pela Revista Top Gear').
 
 carro(bmw_2_series) :-
     tipo(cupê),
@@ -129,7 +151,7 @@ carro(bmw_x4) :-
     peso(1750),
     velocidade_maxima(230),
     aceleracao_0_100(6.3),
-    melhor_premio('Melhor SUV cupê pela Revista US News & World Report').
+    melhor_premio('Melhor suv cupê pela Revista US News & World Report').
 
 carro(bmw_i4) :-
     tipo(sedan_eletrico),
@@ -140,7 +162,7 @@ carro(bmw_i4) :-
     peso(1800),
     velocidade_maxima(230),
     aceleracao_0_100(4.7),
-    melhor_premio('Melhor sedan elétrico pela Revista MotorTrend').
+    melhor_premio('Melhor sedan eletrico pela Revista MotorTrend').
 
 carro(bmw_4_series) :-
     tipo(cupê),
@@ -162,7 +184,7 @@ carro(bmw_x5) :-
     peso(2150),
     velocidade_maxima(250),
     aceleracao_0_100(5.0),
-    melhor_premio('Melhor SUV grande pela Revista US News & World Report').
+    melhor_premio('Melhor suv grande pela Revista US News & World Report').
 
 carro(bmw_6_series) :-
     tipo(cupê_grande),
@@ -184,7 +206,7 @@ carro(bmw_x7) :-
     peso(2450),
     velocidade_maxima(250),
     aceleracao_0_100(5.4),
-    melhor_premio('Melhor SUV de luxo pela Revista US News & World Report').
+    melhor_premio('Melhor suv de luxo pela Revista US News & World Report').
 
 carro(bmw_8_series) :-
     tipo(cupê_grande),
@@ -198,7 +220,7 @@ carro(bmw_8_series) :-
     melhor_premio('Melhor cupê de luxo pela Revista Car and Driver').
 
 carro(bmw_iX3) :-
-    tipo(SUV_eletrico),
+    tipo(suv_eletrico),
     ano_lancamento(2022),
     custo(54300),
     fabricante('BMW'),
@@ -206,7 +228,7 @@ carro(bmw_iX3) :-
     peso(2200),
     velocidade_maxima(220),
     aceleracao_0_100(6.8),
-    melhor_premio('Melhor SUV elétrico pela Revista Auto Express').
+    melhor_premio('Melhor suv eletrico pela Revista Auto Express').
 
 carro(audi_a3) :-
     tipo(hatchback),
@@ -231,7 +253,7 @@ carro(audi_a4) :-
     melhor_premio('Melhor sedan premium pela Revista Car and Driver').
 
 carro(audi_q3) :-
-    tipo(SUV_compacto),
+    tipo(suv_compacto),
     ano_lancamento(2022),
     custo(37900),
     fabricante('Audi'),
@@ -239,7 +261,7 @@ carro(audi_q3) :-
     peso(1700),
     velocidade_maxima(220),
     aceleracao_0_100(7.0),
-    melhor_premio('Melhor SUV compacto de luxo pela Revista US News & World Report').
+    melhor_premio('Melhor suv compacto de luxo pela Revista US News & World Report').
 
 carro(audi_a5) :-
     tipo(cupê),
@@ -253,7 +275,7 @@ carro(audi_a5) :-
     melhor_premio('Melhor cupê premium pela Revista Car and Driver').
 
 carro(audi_q5) :-
-    tipo(SUV_medio),
+    tipo(suv_medio),
     ano_lancamento(2023),
     custo(42900),
     fabricante('Audi'),
@@ -261,7 +283,7 @@ carro(audi_q5) :-
     peso(1800),
     velocidade_maxima(240),
     aceleracao_0_100(6.2),
-    melhor_premio('Melhor SUV médio de luxo pela Revista US News & World Report').
+    melhor_premio('Melhor suv medio de luxo pela Revista US News & World Report').
 
 carro(audi_a6) :-
     tipo(sedan_grande),
@@ -283,7 +305,7 @@ carro(audi_q7) :-
     peso(2250),
     velocidade_maxima(250),
     aceleracao_0_100(6.3),
-    melhor_premio('Melhor SUV grande pela Revista US News & World Report').
+    melhor_premio('Melhor suv grande pela Revista US News & World Report').
 
 carro(audi_a7) :-
     tipo(sedan_cupê),
@@ -297,7 +319,7 @@ carro(audi_a7) :-
     melhor_premio('Melhor sedan cupê pela Revista Car and Driver').
 
 carro(audi_e_tron) :-
-    tipo(SUV_eletrico),
+    tipo(suv_eletrico),
     ano_lancamento(2022),
     custo(65900),
     fabricante('Audi'),
@@ -305,7 +327,7 @@ carro(audi_e_tron) :-
     peso(2300),
     velocidade_maxima(200),
     aceleracao_0_100(5.7),
-    melhor_premio('Melhor SUV elétrico pela Revista MotorTrend').
+    melhor_premio('Melhor suv eletrico pela Revista MotorTrend').
 
 carro(audi_rs3) :-
     tipo(hatchback_esportivo),
@@ -341,7 +363,7 @@ carro(audi_rs5) :-
     melhor_premio('Melhor cupê grande esportivo pela Revista Car and Driver').
 
 carro(audi_q8) :-
-    tipo(SUV_luxo),
+    tipo(suv_luxo),
     ano_lancamento(2022),
     custo(68900),
     fabricante('Audi'),
@@ -349,7 +371,7 @@ carro(audi_q8) :-
     peso(2200),
     velocidade_maxima(250),
     aceleracao_0_100(5.6),
-    melhor_premio('Melhor SUV de luxo pela Revista US News & World Report').
+    melhor_premio('Melhor suv de luxo pela Revista US News & World Report').
 
 carro(audi_a8) :-
     tipo(sedan_executivo),
@@ -396,7 +418,7 @@ carro(audi_s5) :-
     melhor_premio('Melhor cupê grande esportivo pela Revista Auto Express').
 
 carro(audi_sq5) :-
-    tipo(SUV_esportivo),
+    tipo(suv_esportivo),
     ano_lancamento(2023),
     custo(55900),
     fabricante('Audi'),
@@ -404,7 +426,7 @@ carro(audi_sq5) :-
     peso(1850),
     velocidade_maxima(250),
     aceleracao_0_100(5.1),
-    melhor_premio('Melhor SUV esportivo pela Revista MotorTrend').
+    melhor_premio('Melhor suv esportivo pela Revista MotorTrend').
 
 carro(audi_r8) :-
     tipo(superesportivo),
@@ -451,7 +473,7 @@ carro(audi_s3) :-
     melhor_premio('Melhor hatchback esportivo pela Revista Car and Driver').
 
 carro(audi_q3) :-
-    tipo(SUV_compacto),
+    tipo(suv_compacto),
     ano_lancamento(2022),
     custo(36900),
     fabricante('Audi'),
@@ -459,7 +481,7 @@ carro(audi_q3) :-
     peso(1700),
     velocidade_maxima(230),
     aceleracao_0_100(6.1),
-    melhor_premio('Melhor SUV compacto pela Revista US News & World Report').
+    melhor_premio('Melhor suv compacto pela Revista US News & World Report').
 
 carro(audi_a4) :-
     tipo(sedan_medio),
@@ -470,7 +492,7 @@ carro(audi_a4) :-
     peso(1600),
     velocidade_maxima(250),
     aceleracao_0_100(5.8),
-    melhor_premio('Melhor sedan médio pela Revista Car and Driver').
+    melhor_premio('Melhor sedan medio pela Revista Car and Driver').
 
 carro(mercedes_a_class) :-
     tipo(hatchback_subcompacto),
@@ -492,7 +514,7 @@ carro(mercedes_c_class) :-
     peso(1550),
     velocidade_maxima(250),
     aceleracao_0_100(5.7),
-    melhor_premio('Melhor sedan médio pela Revista Car and Driver').
+    melhor_premio('Melhor sedan medio pela Revista Car and Driver').
 
 carro(mercedes_e_class) :-
     tipo(sedan_executivo),
@@ -517,7 +539,7 @@ carro(mercedes_s_class) :-
     melhor_premio('Melhor sedan de luxo pela Revista Car and Driver').
 
 carro(mercedes_gla) :-
-    tipo(SUV_subcompacto),
+    tipo(suv_subcompacto),
     ano_lancamento(2023),
     custo(38900),
     fabricante('Mercedes-Benz'),
@@ -525,10 +547,10 @@ carro(mercedes_gla) :-
     peso(1600),
     velocidade_maxima(240),
     aceleracao_0_100(6.9),
-    melhor_premio('Melhor SUV subcompacto pela Revista US News & World Report').
+    melhor_premio('Melhor suv subcompacto pela Revista US News & World Report').
 
 carro(mercedes_glc_coupe) :-
-    tipo(SUV_cupê),
+    tipo(suv_cupê),
     ano_lancamento(2024),
     custo(49900),
     fabricante('Mercedes-Benz'),
@@ -536,10 +558,10 @@ carro(mercedes_glc_coupe) :-
     peso(1850),
     velocidade_maxima(250),
     aceleracao_0_100(5.5),
-    melhor_premio('Melhor SUV cupê pela Revista Auto Express').
+    melhor_premio('Melhor suv cupê pela Revista Auto Express').
 
 carro(mercedes_gle) :-
-    tipo(SUV_grande),
+    tipo(suv_grande),
     ano_lancamento(2023),
     custo(58900),
     fabricante('Mercedes-Benz'),
@@ -547,10 +569,10 @@ carro(mercedes_gle) :-
     peso(1950),
     velocidade_maxima(260),
     aceleracao_0_100(5.2),
-    melhor_premio('Melhor SUV grande pela Revista US News & World Report').
+    melhor_premio('Melhor suv grande pela Revista US News & World Report').
 
 carro(mercedes_eqc) :-
-    tipo(SUV_elétrico),
+    tipo(suv_eletrico),
     ano_lancamento(2022),
     custo(67900),
     fabricante('Mercedes-Benz'),
@@ -558,7 +580,7 @@ carro(mercedes_eqc) :-
     peso(2300),
     velocidade_maxima(180),
     aceleracao_0_100(5.1),
-    melhor_premio('Melhor SUV elétrico pela Revista Car and Driver').
+    melhor_premio('Melhor suv eletrico pela Revista Car and Driver').
 
 carro(mercedes_amg_gt) :-
     tipo(carro_esportivo),
@@ -627,7 +649,7 @@ carro(mercedes_amg_a45) :-
     melhor_premio('Melhor hatchback esportivo pela Revista Car and Driver').
 
 carro(mercedes_eqs) :-
-    tipo(SUV_elétrico),
+    tipo(suv_eletrico),
     ano_lancamento(2024),
     custo(79900),
     fabricante('Mercedes-Benz'),
@@ -635,10 +657,10 @@ carro(mercedes_eqs) :-
     peso(2200),
     velocidade_maxima(200),
     aceleracao_0_100(4.5),
-    melhor_premio('Melhor SUV elétrico pela Revista What Car?').
+    melhor_premio('Melhor suv eletrico pela Revista What Car?').
 
 carro(mercedes_gls) :-
-    tipo(SUV_de_luxo),
+    tipo(suv_de_luxo),
     ano_lancamento(2023),
     custo(75900),
     fabricante('Mercedes-Benz'),
@@ -646,10 +668,10 @@ carro(mercedes_gls) :-
     peso(2150),
     velocidade_maxima(250),
     aceleracao_0_100(5.9),
-    melhor_premio('Melhor SUV de luxo pela Revista US News & World Report').
+    melhor_premio('Melhor suv de luxo pela Revista US News & World Report').
 
 carro(mercedes_slc) :-
-    tipo(conversível_esportivo),
+    tipo(conversivel_esportivo),
     ano_lancamento(2022),
     custo(59900),
     fabricante('Mercedes-Benz'),
@@ -657,10 +679,10 @@ carro(mercedes_slc) :-
     peso(1650),
     velocidade_maxima(250),
     aceleracao_0_100(6.1),
-    melhor_premio('Melhor conversível esportivo pela Revista Car and Driver').
+    melhor_premio('Melhor conversivel esportivo pela Revista Car and Driver').
 
 carro(mercedes_glc) :-
-    tipo(SUV_Médio),
+    tipo(suv_Medio),
     ano_lancamento(2023),
     custo(46900),
     fabricante('Mercedes-Benz'),
@@ -668,10 +690,10 @@ carro(mercedes_glc) :-
     peso(1700),
     velocidade_maxima(240),
     aceleracao_0_100(6.7),
-    melhor_premio('Melhor SUV médio pela Revista Auto Express').
+    melhor_premio('Melhor suv medio pela Revista Auto Express').
 
 carro(mercedes_sprinter) :-
-    tipo(furgão),
+    tipo(furgao),
     ano_lancamento(2024),
     custo(42900),
     fabricante('Mercedes-Benz'),
@@ -679,10 +701,10 @@ carro(mercedes_sprinter) :-
     peso(2300),
     velocidade_maxima(160),
     aceleracao_0_100(12.1),
-    melhor_premio('Melhor furgão pela Revista US News & World Report').
+    melhor_premio('Melhor furgao pela Revista US News & World Report').
 
 carro(mercedes_cla) :-
-    tipo(sedã_compacto),
+    tipo(seda_compacto),
     ano_lancamento(2023),
     custo(37900),
     fabricante('Mercedes-Benz'),
@@ -690,10 +712,10 @@ carro(mercedes_cla) :-
     peso(1600),
     velocidade_maxima(230),
     aceleracao_0_100(6.3),
-    melhor_premio('Melhor sedã compacto pela Revista Car and Driver').
+    melhor_premio('Melhor seda compacto pela Revista Car and Driver').
 
 carro(mercedes_eqb) :-
-    tipo(SUV_elétrico),
+    tipo(suv_eletrico),
     ano_lancamento(2022),
     custo(58900),
     fabricante('Mercedes-Benz'),
@@ -701,10 +723,10 @@ carro(mercedes_eqb) :-
     peso(2000),
     velocidade_maxima(210),
     aceleracao_0_100(6.8),
-    melhor_premio('Melhor SUV elétrico pela Revista MotorTrend').
+    melhor_premio('Melhor suv eletrico pela Revista MotorTrend').
 
 carro(honda_civic) :-
-    tipo(sedã),
+    tipo(seda),
     ano_lancamento(2023),
     custo(21900),
     fabricante('Honda'),
@@ -712,10 +734,10 @@ carro(honda_civic) :-
     peso(1280),
     velocidade_maxima(210),
     aceleracao_0_100(7.2),
-    melhor_premio('Melhor sedã pela Revista US News & World Report').
+    melhor_premio('Melhor seda pela Revista US News & World Report').
 
 carro(honda_cr_v) :-
-    tipo(SUV_compacto),
+    tipo(suv_compacto),
     ano_lancamento(2022),
     custo(25900),
     fabricante('Honda'),
@@ -723,10 +745,10 @@ carro(honda_cr_v) :-
     peso(1450),
     velocidade_maxima(200),
     aceleracao_0_100(8.3),
-    melhor_premio('Melhor SUV compacto pela Revista Car and Driver').
+    melhor_premio('Melhor suv compacto pela Revista Car and Driver').
 
 carro(honda_accord) :-
-    tipo(sedã),
+    tipo(seda),
     ano_lancamento(2023),
     custo(24900),
     fabricante('Honda'),
@@ -734,7 +756,7 @@ carro(honda_accord) :-
     peso(1380),
     velocidade_maxima(220),
     aceleracao_0_100(6.5),
-    melhor_premio('Melhor sedã médio pela Revista Auto Express').
+    melhor_premio('Melhor seda medio pela Revista Auto Express').
 
 carro(honda_fit) :-
     tipo(hatchback),
@@ -748,7 +770,7 @@ carro(honda_fit) :-
     melhor_premio('Melhor hatchback pela Revista US News & World Report').
 
 carro(honda_hr_v) :-
-    tipo(SUV_subcompacto),
+    tipo(suv_subcompacto),
     ano_lancamento(2023),
     custo(21900),
     fabricante('Honda'),
@@ -756,7 +778,7 @@ carro(honda_hr_v) :-
     peso(1300),
     velocidade_maxima(195),
     aceleracao_0_100(9.5),
-    melhor_premio('Melhor SUV subcompacto pela Revista Car and Driver').
+    melhor_premio('Melhor suv subcompacto pela Revista Car and Driver').
 
 carro(honda_odyssey) :-
     tipo(minivan),
@@ -770,18 +792,18 @@ carro(honda_odyssey) :-
     melhor_premio('Melhor minivan pela Revista US News & World Report').
 
 carro(honda_insight) :-
-    tipo(híbrido),
+    tipo(hibrido),
     ano_lancamento(2023),
     custo(25900),
     fabricante('Honda'),
-    motor(i4_híbrido),
+    motor(i4_hibrido),
     peso(1360),
     velocidade_maxima(190),
     aceleracao_0_100(8.1),
-    melhor_premio('Melhor carro híbrido pela Revista Car and Driver').
+    melhor_premio('Melhor carro hibrido pela Revista Car and Driver').
 
 carro(honda_passport) :-
-    tipo(SUV_médio),
+    tipo(suv_medio),
     ano_lancamento(2022),
     custo(31900),
     fabricante('Honda'),
@@ -789,10 +811,10 @@ carro(honda_passport) :-
     peso(1850),
     velocidade_maxima(210),
     aceleracao_0_100(7.2),
-    melhor_premio('Melhor SUV médio pela Revista US News & World Report').
+    melhor_premio('Melhor suv medio pela Revista US News & World Report').
 
 carro(honda_urban_ev) :-
-    tipo(carro_elétrico),
+    tipo(carro_eletrico),
     ano_lancamento(2024),
     custo(35900),
     fabricante('Honda'),
@@ -800,10 +822,10 @@ carro(honda_urban_ev) :-
     peso(1450),
     velocidade_maxima(160),
     aceleracao_0_100(8.5),
-    melhor_premio('Melhor carro elétrico pela Revista What Car?').
+    melhor_premio('Melhor carro eletrico pela Revista What Car?').
 
 carro(honda_pilot) :-
-    tipo(SUV_grande),
+    tipo(suv_grande),
     ano_lancamento(2023),
     custo(35900),
     fabricante('Honda'),
@@ -811,10 +833,10 @@ carro(honda_pilot) :-
     peso(1970),
     velocidade_maxima(210),
     aceleracao_0_100(7.3),
-    melhor_premio('Melhor SUV grande pela Revista US News & World Report').
+    melhor_premio('Melhor suv grande pela Revista US News & World Report').
 
 carro(honda_vezel) :-
-    tipo(SUV_subcompacto),
+    tipo(suv_subcompacto),
     ano_lancamento(2022),
     custo(24900),
     fabricante('Honda'),
@@ -822,10 +844,10 @@ carro(honda_vezel) :-
     peso(1330),
     velocidade_maxima(200),
     aceleracao_0_100(9.2),
-    melhor_premio('Melhor SUV subcompacto pela Revista Car and Driver').
+    melhor_premio('Melhor suv subcompacto pela Revista Car and Driver').
 
 carro(honda_e) :-
-    tipo(carro_elétrico),
+    tipo(carro_eletrico),
     ano_lancamento(2023),
     custo(32900),
     fabricante('Honda'),
@@ -833,7 +855,7 @@ carro(honda_e) :-
     peso(1550),
     velocidade_maxima(160),
     aceleracao_0_100(7.8),
-    melhor_premio('Melhor carro elétrico pela Revista Auto Express').
+    melhor_premio('Melhor carro eletrico pela Revista Auto Express').
 
 carro(ferrari_488_gt3) :-
     tipo(carro_de_corrida),
@@ -844,21 +866,21 @@ carro(ferrari_488_gt3) :-
     peso(1260),
     velocidade_maxima(300),
     aceleracao_0_100(2.5),
-    melhor_premio('Campeão de GT3 pela FIA GT World Cup').
+    melhor_premio('Campeao de GT3 pela FIA GT World Cup').
 
 carro(ferrari_sf90_stradale) :-
     tipo(carro_esportivo),
     ano_lancamento(2022),
     custo(625000),
     fabricante('Ferrari'),
-    motor(v8_híbrido),
+    motor(v8_hibrido),
     peso(1570),
     velocidade_maxima(340),
     aceleracao_0_100(2.5),
     melhor_premio('Melhor carro esportivo pela Top Gear').
 
 carro(ferrari_portofino) :-
-    tipo(conversível),
+    tipo(conversivel),
     ano_lancamento(2024),
     custo(215000),
     fabricante('Ferrari'),
@@ -866,7 +888,7 @@ carro(ferrari_portofino) :-
     peso(1664),
     velocidade_maxima(320),
     aceleracao_0_100(3.5),
-    melhor_premio('Melhor conversível pela MotorTrend').
+    melhor_premio('Melhor conversivel pela MotorTrend').
 
 carro(ferrari_f8_tributo) :-
     tipo(carro_esportivo),
@@ -902,15 +924,15 @@ carro(ferrari_roma) :-
     melhor_premio('Melhor design pelo Festival Automobile International').
 
 carro(ferrari_sf90_spider) :-
-    tipo(conversível),
+    tipo(conversivel),
     ano_lancamento(2023),
     custo(570000),
     fabricante('Ferrari'),
-    motor(v8_híbrido),
+    motor(v8_hibrido),
     peso(1570),
     velocidade_maxima(340),
     aceleracao_0_100(2.5),
-    melhor_premio('Melhor conversível pelo Robb Report').
+    melhor_premio('Melhor conversivel pelo Robb Report').
 
 carro(ferrari_gtc4lusso) :-
     tipo(grande_turismo),
@@ -961,14 +983,14 @@ carro(ferrari_laFerrari) :-
     ano_lancamento(2022),
     custo(1800000),
     fabricante('Ferrari'),
-    motor(v12_híbrido),
+    motor(v12_hibrido),
     peso(1450),
     velocidade_maxima(350),
     aceleracao_0_100(2.4),
     melhor_premio('Melhor hiper carro pelo Evo Magazine').
 
 carro(ferrari_812_gts) :-
-    tipo(conversível),
+    tipo(conversivel),
     ano_lancamento(2023),
     custo(335000),
     fabricante('Ferrari'),
@@ -976,10 +998,10 @@ carro(ferrari_812_gts) :-
     peso(1630),
     velocidade_maxima(340),
     aceleracao_0_100(3.0),
-    melhor_premio('Melhor conversível pela Robb Report').
+    melhor_premio('Melhor conversivel pela Robb Report').
 
 carro(ferrari_f8_spider) :-
-    tipo(conversível),
+    tipo(conversivel),
     ano_lancamento(2022),
     custo(290000),
     fabricante('Ferrari'),
@@ -987,7 +1009,7 @@ carro(ferrari_f8_spider) :-
     peso(1435),
     velocidade_maxima(340),
     aceleracao_0_100(2.9),
-    melhor_premio('Melhor conversível pela Top Gear').
+    melhor_premio('Melhor conversivel pela Top Gear').
 
 carro(ferrari_roma) :-
     tipo(carro_esportivo),
@@ -1020,14 +1042,14 @@ carro(lamborghini_urus) :-
     peso(2200),
     velocidade_maxima(305),
     aceleracao_0_100(3.6),
-    melhor_premio('Melhor SUV de luxo pela Robb Report').
+    melhor_premio('Melhor suv de luxo pela Robb Report').
 
 carro(lamborghini_asterion) :-
-    tipo(carro_esportivo_híbrido),
+    tipo(carro_esportivo_hibrido),
     ano_lancamento(2022),
     custo(2000000),
     fabricante('Lamborghini'),
-    motor(v10_híbrido),
+    motor(v10_hibrido),
     peso(1800),
     velocidade_maxima(320),
     aceleracao_0_100(3.0),
@@ -1053,14 +1075,14 @@ carro(lamborghini_urus) :-
     peso(2200),
     velocidade_maxima(305),
     aceleracao_0_100(3.6),
-    melhor_premio('Melhor SUV de luxo pela Robb Report').
+    melhor_premio('Melhor suv de luxo pela Robb Report').
 
 carro(lamborghini_asterion) :-
-    tipo(carro_esportivo_híbrido),
+    tipo(carro_esportivo_hibrido),
     ano_lancamento(2022),
     custo(2000000),
     fabricante('Lamborghini'),
-    motor(v10_híbrido),
+    motor(v10_hibrido),
     peso(1800),
     velocidade_maxima(320),
     aceleracao_0_100(3.0),
@@ -1078,15 +1100,15 @@ carro(lamborghini_aventador) :-
     melhor_premio('Melhor carro supercarro pela Evo').
 
 carro(lamborghini_sian) :-
-    tipo(carro_esportivo_híbrido),
+    tipo(carro_esportivo_hibrido),
     ano_lancamento(2022),
     custo(3500000),
     fabricante('Lamborghini'),
-    motor(v12_híbrido),
+    motor(v12_hibrido),
     peso(1550),
     velocidade_maxima(350),
     aceleracao_0_100(2.8),
-    melhor_premio('Melhor híbrido pela Top Gear').
+    melhor_premio('Melhor hibrido pela Top Gear').
 
 carro(lamborghini_egoista) :-
     tipo(conceito),
@@ -1188,11 +1210,11 @@ carro(lamborghini_gallardo_superleggera) :-
     melhor_premio('Melhor carro esportivo pela Top Gear').
 
 carro(lamborghini_asterion_lpi910) :-
-    tipo(carro_esportivo_híbrido),
+    tipo(carro_esportivo_hibrido),
     ano_lancamento(2022),
     custo(2000000),
     fabricante('Lamborghini'),
-    motor(v10_híbrido),
+    motor(v10_hibrido),
     peso(1800),
     velocidade_maxima(320),
     aceleracao_0_100(3.0),
@@ -1229,7 +1251,7 @@ carro(ford_focus) :-
     peso(1360),
     velocidade_maxima(210),
     aceleracao_0_100(7.9),
-    melhor_premio('Melhor hatchback médio pela Revista What Car?').
+    melhor_premio('Melhor hatchback medio pela Revista What Car?').
 
 carro(ford_ranger) :-
     tipo(pickup),
@@ -1240,7 +1262,7 @@ carro(ford_ranger) :-
     peso(1985),
     velocidade_maxima(180),
     aceleracao_0_100(9.8),
-    melhor_premio('Melhor pickup média pela Revista Edmunds').
+    melhor_premio('Melhor pickup media pela Revista Edmunds').
 
 carro(ford_explorer) :-
     tipo(suv_grande),
@@ -1251,7 +1273,7 @@ carro(ford_explorer) :-
     peso(2043),
     velocidade_maxima(200),
     aceleracao_0_100(7.3),
-    melhor_premio('Melhor SUV grande pela Revista US News & World Report').
+    melhor_premio('Melhor suv grande pela Revista US News & World Report').
 
 carro(ford_edge) :-
     tipo(suv_medio),
@@ -1262,18 +1284,18 @@ carro(ford_edge) :-
     peso(1857),
     velocidade_maxima(210),
     aceleracao_0_100(8.3),
-    melhor_premio('Melhor SUV médio pela Revista What Car?').
+    melhor_premio('Melhor suv medio pela Revista What Car?').
 
 carro(ford_ecosport) :-
     tipo(suv_subcompacto),
-    ano_lancamento(2023),,
+    ano_lancamento(2023),
     custo(21490),
     fabricante('Ford'),
     motor(i4),
     peso(1400),
     velocidade_maxima(180),
     aceleracao_0_100(10.7),
-    melhor_premio('Melhor SUV subcompacto pela Revista US News & World Report').
+    melhor_premio('Melhor suv subcompacto pela Revista US News & World Report').
 
 carro(ford_escape) :-
     tipo(suv_compacto),
@@ -1284,14 +1306,14 @@ carro(ford_escape) :-
     peso(1596),
     velocidade_maxima(200),
     aceleracao_0_100(8.9),
-    melhor_premio('Melhor SUV compacto pela Revista Edmunds').
+    melhor_premio('Melhor suv compacto pela Revista Edmunds').
 
 carro(ford_maverick) :-
     tipo(pickup_compacta),
     ano_lancamento(2022),
     custo(21975),
     fabricante('Ford'),
-    motor(i4_híbrido),
+    motor(i4_hibrido),
     peso(1720),
     velocidade_maxima(170),
     aceleracao_0_100(9.0),
@@ -1309,7 +1331,7 @@ carro(ford_fusion) :-
     melhor_premio('Melhor sedan pela Revista US News & World Report').
 
 carro(ford_transit) :-
-    tipo(furgão),
+    tipo(furgao),
     ano_lancamento(2024),
     custo(35985),
     fabricante('Ford'),
@@ -1317,18 +1339,7 @@ carro(ford_transit) :-
     peso(2000),
     velocidade_maxima(160),
     aceleracao_0_100(12.5),
-    melhor_premio('Melhor furgão pelo International Van of the Year').
-
-carro(ford_f150_lightning) :-
-    tipo(pickup_elétrica),
-    ano_lancamento(2022),
-    custo(39995),
-    fabricante('Ford'),
-    motor(electric),
-    peso(5500),
-    velocidade_maxima(180),
-    aceleracao_0_100(4.4),
-    melhor_premio('Melhor pickup elétrica pela Revista MotorTrend').
+    melhor_premio('Melhor furgao pelo International Van of the Year').
 
 % Predicados auxiliares
 tipo(X):- questiona(tipo, X).
